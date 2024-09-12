@@ -18,6 +18,7 @@ import logging
 import time
 from simplejson import dumps
 from tb_device_mqtt import TBDeviceMqttClient
+from .tb_device_mqtt import TBDeviceMqttClient
 
 GATEWAY_ATTRIBUTES_TOPIC = "v1/gateway/attributes"
 GATEWAY_ATTRIBUTES_REQUEST_TOPIC = "v1/gateway/attributes/request"
